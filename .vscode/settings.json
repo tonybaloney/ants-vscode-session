@@ -1,0 +1,15 @@
+{
+    "python.analysis.diagnosticMode": "workspace",
+    "python.formatting.provider": "black",
+    "[python]" : {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {"source.organizeImports": true}
+    },
+
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+}
