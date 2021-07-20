@@ -1,8 +1,3 @@
-import json
-import re
-
-import numpy
-
 names = ["larry", "jim", "julia"]
 ordered_names = names.sort()
 
